@@ -1,5 +1,5 @@
-// ProductCard.tsx
 import React from "react";
+import Image from "next/image";
 
 interface ProductCardProps {
   image: string;
@@ -18,7 +18,13 @@ const ProductCard: React.FC<ProductCardProps> = ({
     <div className="bg-white rounded-lg shadow-md overflow-hidden">
       {/* Product Image */}
       <div className="relative h-80">
-        <img src={image} alt={title} className="w-full h-full object-cover" />
+        <Image
+          src={image} // Image URL
+          alt={title} // Accessibility description
+          layout="fill" // Fill the parent container
+          objectFit="cover" // Maintain aspect ratio
+          className="rounded-t-lg"
+        />
       </div>
 
       {/* Product Details */}

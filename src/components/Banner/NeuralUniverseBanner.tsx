@@ -1,13 +1,16 @@
 import React from "react";
+import Image from "next/image";
 
 const NeuralUniverseBanner: React.FC = () => {
   return (
     <section className="flex flex-col md:flex-row items-center justify-between bg-gray-100 py-10 px-6 md:px-12">
       {/* Image */}
       <div className="w-full md:w-1/2 mb-6 md:mb-0">
-        <img
+        <Image
           src="/images/neuralbanner.png" // Replace with your image path
           alt="Man and woman with scarf"
+          width={600} // Set a width for your image
+          height={400} // Set a height for your image
           className="rounded-lg shadow-lg"
         />
       </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 interface PostCardProps {
   image: string;
@@ -20,8 +21,14 @@ const PostCard: React.FC<PostCardProps> = ({
   return (
     <div className="bg-white rounded-lg shadow-md overflow-hidden">
       {/* Image */}
-      <div className="relative h-80"> {/* Increased height */}
-        <img src={image} alt={title} className="w-full h-full object-cover" />
+      <div className="relative h-80">
+        <Image
+          src={image}
+          alt={title}
+          layout="fill"
+          objectFit="cover"
+          className="rounded-t-lg"
+        />
         <span className="absolute top-2 left-2 bg-red-500 text-white text-sm px-2 py-1 rounded">
           NEW
         </span>

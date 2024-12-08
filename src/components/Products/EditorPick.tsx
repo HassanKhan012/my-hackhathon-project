@@ -5,7 +5,7 @@ import './EditorPick.css'; // Import the custom CSS file
 const EditorPick = () => {
   return (
     <div className="mt-20"> {/* Added margin-top */}
-      <h1 className="text-3xl font-bold mb-4 text-center">EDITOR'S PICK</h1>
+      <h1 className="text-3xl font-bold mb-4 text-center">EDITOR&apos;S PICK</h1>
       <p className="mb-6 text-center">Problems trying to resolve the conflict between</p>
 
       {/* Flexbox layout for the first row (Men, Women, and Accessories) */}
