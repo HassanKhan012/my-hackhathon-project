@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 // Importing icons from react-icons
-import { FiHome, FiShoppingCart, FiHeart } from 'react-icons/fi';
+import { FiShoppingCart, FiHeart } from 'react-icons/fi';
 import { RiSearchLine } from 'react-icons/ri';
 // import { GiHamburgerMenu } from 'react-icons/gi';
 
