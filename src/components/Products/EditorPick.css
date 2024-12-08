@@ -1,0 +1,21 @@
+/* Custom height and width for the Accessories card */
+.editor-pick-accessories {
+    height: 200px; /* Adjust the height of the Accessories card */
+    width: 160px;  /* Increase the width slightly */
+  }
+  
+  .editor-pick-accessories img {
+    width: 160%;   /* Make sure the image fills the container */
+    height: 100%;  /* Make the image cover the set height */
+  }
+  
+  /* Custom height for the Kids card */
+  .editor-pick-kids {
+    height: 180px; /* Slightly increase the height of the Kids card */
+  }
+  
+  .editor-pick-kids img {
+    width: 160%;   /* Make sure the image fills the container */
+    height: 100%;  /* Make the image cover the set height */
+  }
+  
